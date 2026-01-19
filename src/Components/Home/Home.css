@@ -1,0 +1,115 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at top left, #1e293b, #020617);
+  position: relative;
+  overflow: hidden;
+  padding: 40px;
+    gap: 50px;
+}
+.home-left,
+.home-right {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 40px;
+  width: 40rem;
+  height: 30rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+.home-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25rem;
+}
+.profile-pic {
+  width: 300px;
+  height: 380px;
+  border-radius: 20px;
+  object-fit: cover;
+ 
+}
+
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0); }
+}
+
+.home-right h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  color: #cbd5f5;
+}
+
+.home-right span {
+  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-right h2 {
+  font-size: 20px;
+  color: #cbd5f5;
+  margin-bottom: 20px;
+}
+
+.home-right p {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 420px;
+  margin-bottom: 30px;
+  color: #e5e7eb;
+}
+.home-buttons {
+  display: flex;
+  gap: 15px;
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+.btn {
+  padding: 12px 26px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.primary {
+  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  color: #020617;
+}
+
+.secondary { 
+  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  color: #020617;
+}
+.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(56, 189, 248, 0.4);
+}
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+  }
+
+  .home-left,
+  .home-right {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .home-buttons {
+    justify-content: center;
+  }
+}
