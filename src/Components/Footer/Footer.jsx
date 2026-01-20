@@ -6,7 +6,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <p>
-          © {new Date().getFullYear()} <span>Mohammad Muqthar</span>.  
+          © {new Date().getFullYear()} <span>Hema K</span>.  
           All rights reserved.
         </p>
 

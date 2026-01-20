@@ -8,7 +8,7 @@ function About() {
         <h2>About Me</h2>
 
         <p className="about-text">
-          I’m <span>Mohammad Muqthar</span>, a passionate Python Developer with
+          I’m <span>Hema K</span>, a passionate Python Developer with
           strong interest in web development and problem solving. I enjoy
           building clean, efficient, and user-friendly applications.
         </p>

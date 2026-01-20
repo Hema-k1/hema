@@ -7,13 +7,13 @@ function Home() {
       <div className="home-left">
         <img
           src="public/images/img.jpeg"
-          alt="Muqthar"
+          alt="Hema"
           className="profile-pic"
         />
       </div>
 
       <div className="home-right">
-        <h1>Hi, I'm <span>Mohammad Muqthar</span></h1>
+        <h1>Hi, I'm <span>Hema K</span></h1>
         <h2>Python Developer</h2>
         <p>
           I am a passionate Python Developer with strong interest in

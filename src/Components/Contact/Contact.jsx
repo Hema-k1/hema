@@ -16,7 +16,7 @@ function Contact() {
         </form>
 
         <div className="contact-info">
-          <p><span>Email:</span> muqthar@email.com</p>
+          <p><span>Email:</span> hhema8613@email.com</p>
           <p><span>Location:</span> India</p>
           
           <img src="worldmap.jpg" usemap="#worldmap" alt="World Map"/>
