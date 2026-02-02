@@ -1,6 +1,6 @@
 .about {
   min-height: 100vh;
-  background: radial-gradient(circle at bottom right, #1e293b, #020617);
+  background: #18181b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +22,7 @@
 .about-container h2 {
   font-size: 36px;
   margin-bottom: 20px;
-  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  background:lightpink;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
@@ -41,7 +41,7 @@
 }
 
 .about-text span {
-  color: #38bdf8;
+  color:lightpink;
   font-weight: 600;
   
 }
@@ -59,7 +59,7 @@
   padding: 8px 16px;
   border-radius: 20px;
   background: rgba(3, 1, 1, 0.15);
-  border: 1px solid #38f86b;
+  border: 1px solid lightpink;
   font-size: 14px;
 }
 @media (max-width: 768px) {

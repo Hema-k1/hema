@@ -1,7 +1,7 @@
 .navbar {
   width: 100%;
   height: 70px;
-  background: #af1515;
+  background: #a9aaad;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,10 +13,10 @@
 }
 
 .logo {
-  font-size: larger;
+  font-size: 30px;
   font-weight: bold;
-  color: #ffffff;
-  margin: 0px 80px;
+  color:light pink;
+  margin: 0px 70px;
 }
 
 .nav-links {
@@ -28,13 +28,14 @@
 .nav-links li a {
   text-decoration: none;
   color: white;
-  font-size: 16px;
+  font-size: 25px;
   transition: 0.3s;
-  margin-right: 40px;
+  margin-right: 50px;
+  
 }
 
 .nav-links li a:hover {
-  color: #38bdf8;
+  color:black;
 }
 
 .menu-icon {

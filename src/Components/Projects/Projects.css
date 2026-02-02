@@ -1,6 +1,6 @@
 .projects {
   min-height: 100vh;
-   background: radial-gradient(circle at bottom right, #1e293b, #020617);
+   background:#18181b;
   padding: 60px 40px;
   color: white;
 }
@@ -19,7 +19,7 @@
   text-align: center;
   font-size: 36px;
   margin-bottom: 50px;
-  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  background: linear-gradient(90deg,lightpink, lightpink);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -35,7 +35,7 @@
   backdrop-filter: blur(15px);
   border-radius: 20px;
   padding: 30px;
-  border: 1px solid rgba(56, 189, 248, 0.3);
+  border: 1px solid lightpink;
   transition: 0.3s ease;
 }
 
@@ -56,7 +56,7 @@
 }
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(56, 189, 248, 0.4);
+  box-shadow: 0 20px 40px lightpink;
 }
 @media (max-width: 768px) {
   .projects {

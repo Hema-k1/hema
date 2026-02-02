@@ -1,5 +1,5 @@
 .footer {
-  background: radial-gradient(circle at top, #1e293b, #020617);
+  background: #18181b;
   padding: 30px 20px;
   color: #cbd5f5;
 }
@@ -23,7 +23,7 @@
 }
 
 .footer span {
-  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  background: linear-gradient(90deg, lightpink,lightpink);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 600;
@@ -42,7 +42,7 @@
 }
 
 .footer-links a:hover {
-  color: #38bdf8;
+  color:lightpink;
 }
 
 

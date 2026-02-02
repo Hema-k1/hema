@@ -16,10 +16,10 @@ function Contact() {
         </form>
 
         <div className="contact-info">
-          <p><span>Email:</span> hhema8613@email.com</p>
+          <p><span>Email:</span> soundukrish979@gmail.com</p>
           <p><span>Location:</span> India</p>
           
-          <img src="worldmap.jpg" usemap="#worldmap" alt="World Map"/>
+          
 
 <map name="worldmap">
   <area shape="rect" coords="34,44,270,350" href="asia.html" alt="Asia"/>

@@ -6,7 +6,7 @@ function Home() {
     <section className="home" id="home">
       <div className="home-left">
         <img
-          src="public/images/img.jpeg"
+          src="images/img.jpeg"
           alt="Hema"
           className="profile-pic"
         />

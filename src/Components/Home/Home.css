@@ -3,35 +3,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: radial-gradient(circle at top left, #2b579e, #a629b4);
+  background: #18181b;
   position: relative;
   overflow: hidden;
   padding: 40px;
     gap: 50px;
 }
-.home-left,
-.home-right {
-  background: rgba(255, 255, 255, 0.06);
-  backdrop-filter: blur(15px);
-  border-radius: 20px;
-  padding: 40px;
-  width: 40rem;
-  height: 30rem;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-}
+
 .home-left {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 25rem;
 }
+
+
 .profile-pic {
-  width: 300px;
-  height: 380px;
-  border-radius: 20px;
-  object-fit: cover;
- 
+  width: 500px;
+  height: 500px;        /* SAME width & height */
+  border-radius: 50%;
+  object-fit: cover;   /* crops extra top & bottom */
+  display: block;
+  margin-right: 15rem;
 }
+
 
 
 @keyframes float {
@@ -47,7 +42,7 @@
 }
 
 .home-right span {
-  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  background: lightpink;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -80,17 +75,17 @@
 }
 
 .primary {
-  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  background: linear-gradient(lightpink, lightpink);
   color: #020617;
 }
 
 .secondary { 
-  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  background: linear-gradient(90deg, lightpink, lightpink);
   color: #020617;
 }
 .btn:hover {
   transform: translateY(-4px);
-  box-shadow: 0 10px 20px rgba(56, 189, 248, 0.4);
+  box-shadow: 0 10px 20px rgba(164, 170, 172, 0.4);
 }
 @media (max-width: 768px) {
   .home {

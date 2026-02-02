@@ -1,6 +1,6 @@
 .contact {
   min-height: 100vh;
-  background: radial-gradient(circle at top left, #1e293b, #020617);
+  background:#18181b;
   padding: 60px 40px;
   color: white;
 }
@@ -9,7 +9,7 @@
   text-align: center;
   font-size: 36px;
   margin-bottom: 50px;
-  background: linear-gradient(90deg, #38bdf8, #22d3ee);
+  background:lightpink;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -40,7 +40,7 @@
 .contact-form input,
 .contact-form textarea {
   background: rgba(181, 169, 169, 0.08);
-  border: 1px solid rgba(56, 189, 248, 0.3);
+  border: 1px solid lightpink;
   border-radius: 12px;
   padding: 12px 14px;
   color: white;
@@ -72,7 +72,7 @@
 }
 
 .contact-info span {
-  color: #38bdf8;
+  color: lightpink;
   font-weight: 600;
 }
 @media (max-width: 768px) {
